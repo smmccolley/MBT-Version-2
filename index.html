@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/mbt_circle.png" type="image/gif" sizes="16x16">
+  <!-- RESET CSS -->
+  <link rel="stylesheet" href="./css/reset.css">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+
+
+  <!-- LOACAL JS -->
+  <script src="./js/app.js"></script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--Prata Font-->
+  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+  <!--Brandon Font-->
+  <link rel="stylesheet" href="https://use.typekit.net/rve6uwh.css">
+
+  <!-- LOCAL CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/index.temp.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0LL9CBPZ50"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0LL9CBPZ50');
+
+</script>
+<!--Hotjar Tracking Code for https://smmccolley.github.io/mbt-ux-group-project/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2450284,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+
+  <title>MBT</title>
+</head>
+
+<body style="background-color: white !important;">
+  <!-- START NAV -->
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid d-flex justify-content-end">
+      <div class="whiteLogo">
+        <img class="whiteLogo" src="/images/logo-mbt-text_white_black_resize.png">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#fullScreenNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Full screen modal -->
+  <div id="fullScreenNav" class="modal fade modal-fullscreen bg-light">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLOSE</button>
+
+      </div>
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <h2 class="menu">MENU</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <h2 class="navPages">HOME</h2>
+                  </a>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <a href="/about.html">
+                        <h2 class="navPages">ABOUT</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">FACULTY</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">ALUMNI</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">CONTACT</h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="row">
+                    <div class="col">
+                      <a href="/classes.html">
+                        <h2 class="navPages">CLASSES</h2>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">YEAR LONG CLASSES</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">OPEN CLASSES</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">ADULT CLASSES</h3>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="#">
+                        <h3 class="navSubpages">PRE PRO CLASSES</h3>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <h2 class="navPages">GALLERY</h2>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <h2 class="navPages">SHOP</h2>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <h2 class="navPages">DONATE</h2>
+                  </a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <a href="#">
+                    <h2 class="navPages">NEWS</h2>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- END OF NAV -->
+
+  <!-- Content -->
+  <div class="homeTitleCG">
+    <h1> METROPOLITAN BALLLET THEATRE</h1>
+  </div>
+
+  <!-- The slideshow carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3500">
+        <img src="images/pic1mbt_slide_cg.png" alt="mbt1">
+        <div class="carousel-caption">
+          <h2>WANT TO DANCE PROFESSIONALY?</h2>
+          <h6>Train with us.</h6>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3500">
+        <img src="images/pic2mbt_slide_cg.png" alt="mbt2">
+        <div class="carousel-caption">
+          <h2>SUMMER INTENSIVE</h2>
+          <h6>See how far we can go. Sign up now. </h6>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3500">
+        <img src="images/pic3mbt_slide_cg.png" alt="mbt3">
+        <div class="carousel-caption">
+          <h2>JOIN US</h2>
+          <h6>We offer open classes. Bring a friend for free!</h6>
+        </div>
+      </div>
+    </div>
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- The slideshow carousel end -->
+
+  <!--MEET THE DIRECTOR SECTION-->
+  <div class="jumbotron-fluid">
+    <div class="directorContainer">
+      <div class="row">
+        <h2 class="directorText">MEET OUR ARTISTIC DIRECTOR </h2>
+        <div class="col"></div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="directorCard1 col-lg-6 col-md-6 col-sm-12 d-inline-block" style="width:100%">
+            <img src="images/maniya.png" class="card-img btn btn-default" alt="...">
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="card-body">
+            <h5 class="card-titleM">MS. MANIYA BAREDO</h5>
+            <h6 class="card-textM"><br> <br>Maniya Barredo received one of the highest titles possible in dance
+              in 1978
+              after a performance of Giselle with a company in the Philippines. Included in the audience were
+              President
+              and First Lady Marcos, and one of this century’s most-loved ballerinas, Dame Margot Fonteyn.
+              <br> <br> At a reception following the performance, Dame Margot presented Maniya with a bouquet of
+              flowers, and in front of all assembled proclaimed Maniya Barredo had earned the title Prima
+              Ballerina.<br>
+              <br> <br>
+            </h6>
+            <button type="button" class="btn btn-primary">READ MORE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--MEET THE DIRECTOR SECTION END-->
+
+  <!--UPCOMING CLASSES-->
+  <div class="jumbotron-fluid">
+
+    <div class="row upcomingContainer">
+
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="upcomingCard1 col-lg-6 col-md-6 col-sm-12 d-inline-block" style="width:100%">
+          <img src="images/upcoming1.png" class="card-img" style="border-radius: 0px;" alt="...">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="card-body">
+          <h2> VIEW OUR UPCOMING <br>
+            CLASSES AND PERFORMANCES </h2>
+          <h6><br><br>Metropolitan Ballet Theatre offers a range of programs to meet the developmental needs of
+            dancers at each every stage of their physical, mental, emotional and artistic growth. MBT especially
+            prides itself focused consistency in daily training, achieved by the efforts of a small and
+            dedicated
+            faculty. <br> <br> <br>
+          </h6>
+
+          <button type="button" class="btn btn-primary">VIEW CALENDAR</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!--UPCOMING CLASSES END-->
+
+  <!--FACULTY-->
+  <div class="directorjumbotron jumbotron-fluid">
+    <div class="directorContainer">
+
+      <div class="row">
+        <h2 class="directorText">FACULTY</h2>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="facultyCard1">
+            <img src="images/roscoe_sales_circle@2x.png" class="card-img btn btn-default" alt="...">
+            <div class="card-body">
+              <h5 class="card-titleM">ROSCOE SALES</h5>
+              <h6>MODERN DANCE</h6>
+              <h6 class="card-textM"><br>Roscoe L. Sales, Jr., is a native of Winston-Salem, N.C. where he
+                earned his
+                BFA
+                on scholarship from the North Carolina School of the Arts. <br><br>
+              </h6>
+
+              <button type="button" class="btn btn-primary">READ MORE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="facultyCard2">
+            <img src="images/luis_gonzalez_circle@2x.png" class="card-img btn btn-default" alt="...">
+            <div class="card-body">
+              <h5 class="card-titleM">LUIS GONZALEZ</h5>
+              <h6>RESIDENT CHOREOGRAPHER</h6>
+              <h6 class="card-textM"><br>Luis Eduardo Gonzalez is originally from Bogota, Colombia, where he
+                grew up
+                before moving to Atlanta. <br><br><br>
+              </h6>
+
+              <button type="button" class="btn btn-primary">READ MORE</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!--FACULTY END-->
+
+
+  <!-- The scroll alumni -->
+  <div class="container-fluid" style="background-color: white; color:black;">
+    <h2 class="mt-5">ACCOMPLISHED ALUMNI</h2>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
+
+      <div class="col-5 col pr-0">
+        <div class="card card-block card-1 border border-dark rounded-0">
+          <img src="images/alumni1.png" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <div class="alumniText">
+              <h5 class="card-title">SARAH CORDIA | NASHVILLE BALLET </h5>
+              <h6 class="card-text">As soon as she joined NB2 (Nashville Ballet 2) in 2010, Sarah Cordia
+                became……<br><br></h6>
+            </div>
+            <p class="card-text"><small class="text-alumniCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card card-block card-2 border border-dark rounded-0">
+          <img src="images/alumni2.png" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <div class="alumniText">
+              <h5 class="card-title">ANASTACIA HOLDEN | JOFFREY BALLET </h5>
+              <h6 class="card-text">Anastacia Holden joined The Joffrey Ballet in 2005 following two seasons as
+                an
+                Arpino Apprentice.<br><br></h6>
+            </div>
+            <p class="card-text"><small class="text-alumniCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card card-block card-3 border border-dark rounded-0">
+          <img src="images/alumni3.png" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <div class="alumniText">
+              <h5 class="card-title">ALEXIS MATHESSEN | SAINT LOUIS BALLET </h5>
+              <h6 class="card-text">As of 2014, Matthesen became a member of the Saint Louis Ballet and has
+                danced many
+                featured roles<br><br></h6>
+            </div>
+            <p class="card-text"><small class="text-alumniCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-5">
+        <div class="card card-block card-4 border border-dark rounded-0">
+          <img src="images/alumni4.png" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <div class="alumniText">
+              <h5 class="card-title">LUIS GONZALEZ | JOFFREY BALLET </h5>
+              <h6 class="card-text">Gonzalez began his professional career with the Houston Ballet II…<br><br>
+              </h6>
+            </div>
+            <p class="card-text"><small class="text-alumniCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card card-block card-5 border border-dark rounded-0">
+          <img src="images/alumni5.png" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <div class="alumniText">
+              <h5 class="card-title">KATHLEEN THIELHELM | JOFFREY BALLET</h5>
+              <h6 class="card-text">She was a member of the Joffrey Ballet in Chicago for nine seasons and went
+                on to
+                join the Béjart Ballet Lausanne as a company member in 2009.<br><br></h6>
+            </div>
+            <p class="card-text"><small class="text-alumniCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <div class="card card-block card-6 border border-dark rounded-0">
+          <img src="images/alumni6.png" class="card-img-top rounded-0" alt="...">
+          <div class="card-body">
+            <div class="alumniText">
+              <h5 class="card-title">PETER FRANC | OREGON BALLET THEATRE</h5>
+              <h6 class="card-text">He joined OBT as a soloist in 2015 and was promoted to principal in
+                2016.<br><br>
+              </h6>
+            </div>
+            <p class="card-text"><small class="text-alumniCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- The scroll alumni end -->
+
+  <!-- NEWSLETTER FORM -->
+  <div class="directorjumbotron jumbotron-fluid">
+    <div class="directorContainer">
+      <h2 class="directorText">SIGN UP FOR OUR NEWSLETTER </h2>
+      <div class="newsletterCard1">
+        <div class="card-body">
+          <form>
+            <h6><br>Sign up to receive the latest news and exclusive offers! <br><br>
+            </h6>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter your email here">
+            </div>
+            <button type="submit" class="btn btn-primary mt-4">SIGN UP</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- NEWSLETTER FORM END-->
+
+  <!-- SPONSOR OPTIONS-->
+  <div class="directorjumbotron jumbotron-fluid">
+    <div class="sponsorContainer">
+      <!--<h2 class="py-2 mt-4">SUPPORT US BY BECOMING A SPONSOR </h2>-->
+      <h2 class="mt-5">SUPPORT US BY BECOMING A SPONSOR</h2>
+
+
+      <div class="card-deck ml-2 mr-2">
+        <div class="sponsorCard1 col-xs-5ths col-sm-5ths col-md-5ths col-lg-5ths d-inline-block">
+          <h5 class="card-titleS ml-2">TIER 1</h5>
+          <img src="images/sponsorOpt1.png" class="card-img btn btn-default" alt="...">
+          <div class="card-body">
+            <h5 class="card-titleS">ADOPT AN ANGEL - NUTCRACKER </h5>
+            <h6 class="card-textS"><br>Donate $40. We’ll make one new costume for an Angel. <br><br>
+            </h6>
+            <p class="card-text"><small class="text-sponsorCardcg">READ MORE</small></p>
+          </div>
+        </div>
+
+        <div class="sponsorCard2 col-xs-5ths col-sm-5ths col-md-5ths col-lg-5ths d-inline-block">
+          <h5 class="card-titleS ml-2">TIER 2</h5>
+          <img src="images/sponsorOpt2.png" class="card-img btn btn-default" alt="...">
+          <div class="card-body">
+            <h5 class="card-titleS">MBT SPONSORSHIP - CORPS du BALLET </h5>
+            <h6 class="card-textS"><br> 2 Tickets to 20th Anniversary Gala<br><br>
+              2019 Gala Recognition on website & performance playbills throughout the year.<br><br>
+              4 Tickets to MBT’s Nutcracker Performance <br><br>
+            </h6>
+            <p class="card-text"><small class="text-sponsorCardcg">READ MORE</small></p>
+          </div>
+        </div>
+
+        <div class="sponsorCard3 col-xs-5ths col-sm-5ths col-md-5ths col-lg-5ths d-inline-block">
+          <h5 class="card-titleS ml-2">TIER 3</h5>
+          <img src="images/sponsorOpt3.png" class="card-img btn btn-default" alt="...">
+          <div class="card-body">
+            <h5 class="card-titleS">MBT SPONSORSHIP - SOLOISTE LEVEL </h5>
+            <h6 class="card-textS"><br>2 Tickets to 20th Anniversary Gala<br><br>
+              2019 Gala Recognition on website & performance playbills throughout the year.<br><br>
+              2 Tickets to Spring Performance<br><br>
+              2 Tickets to Fall Performance <br><br>
+              6 Tickets to MBT’s Nutcracker Performance<br><br>
+            </h6>
+            <p class="card-text"><small class="text-sponsorCardcg">READ MORE</small></p>
+          </div>
+        </div>
+
+        <div class="sponsorCard4 col-xs-5ths col-sm-5ths col-md-5ths col-lg-5ths d-inline-block">
+          <h5 class="card-titleS ml-2">TIER 4</h5>
+          <img src="images/sponsorOpt4.png" class="card-img btn btn-default" alt="...">
+          <div class="card-body">
+            <h5 class="card-titleS">MBT SPONSORSHIP - PRIMA LEVEL </h5>
+            <h6 class="card-textS"><br>4 tickets to 20th Anniversary Gala<br><br>
+              2019 Gala Recognition on website & performance playbills throughout the year.<br><br>
+              4 tickets to Spring Performance<br><br>
+              4 Tickets to Fall Performance<br><br>
+              8 Tickets to MBT’s Nutcracker Performance <br><br>
+            </h6>
+            <p class="card-text"><small class="text-sponsorCardcg">READ MORE</small></p>
+          </div>
+        </div>
+
+        <div class="sponsorCard5 col-xs-5ths col-sm-5ths col-md-5ths col-lg-5ths d-inline-block">
+          <h5 class="card-titleS ml-2">TIER 5</h5>
+          <img src="images/sponsorOpt5.png" class="card-img btn btn-default" alt="...">
+          <div class="card-body">
+            <h5 class="card-titleS">MBT SPONSORSHIP - ETOILE LEVEL </h5>
+            <h6 class="card-textS"><br>6 Tickets to 20th Anniversary Gala <br><br>
+              2019 Gala Recognition on website & performance playbills throughout the year.<br><br>
+              6 tickets to Spring Performance<br><br>
+              6 tickets to Fall Performance<br><br>
+              10 tickets to MBT’s Nutcracker Performance <br><br>
+            </h6>
+            <p class="card-text"><small class="text-sponsorCardcg">READ MORE</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SPONSOR OPTIONS END-->
+
+
+  <!-- DONATION-->
+  <div style="clear:both"></div>
+
+  <hr class="style1" style="margin-top: 6rem; margin-bottom: 4rem;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-9">
+        <div class="donationCardT">
+          <h2 class="donationHead " style="font-size: 1.75rem; margin-bottom: 0px;">OR SUPPORT US BY MAKING A
+            DONATION <br> <br>
+          </h2>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div class="donationCardB">
+          <button type="button" class="btn btn-primary">MAKE A DONATION</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="style1" style="margin-top: 4rem; ">
+
+  <!-- DONATION END-->
+
+
+  <!-- THE SPONSORS-->
+  <div class="container">
+    <div class="row pb-4 mb-4">
+      <h2 class="mt-5">OUR SPONSORS</h2>
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div class="theSponsorCard">
+          <img src="images/sponsor1.png" class="card-img" alt="...">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div class="theSponsorCard">
+          <img src="images/sponsor2.png" class="card-img" alt="...">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div class="theSponsorCard">
+          <img src="images/sponsor3.png" class="card-img" alt="...">
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3">
+        <div class="theSponsorCard">
+          <img src="images/sponsor4.png" class="card-img" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="row row_jr footer_jr five_padding_top five_padding_bottom">
+    <div class="col-md-3">
+        <h2>CONNECT WITH MBT</h2>
+        <p> Metropolitan Ballet Theatre is <br> a non-profit 501 (c) (3) <br>
+            organization EIN: <br> 58-2401393</p>
+    </div>
+    <div class="col-md-3 social_media">
+        <img src="images/facebook-01.png">
+        <img src="images/instagram-01.png">
+        <img src="images/twitter-01.png">
+        <img src="images/Youtube-01.png">
+        <img src="images/envelope-regular2-01.png">
+        <img src="images/phone-solid2-01.png">
+    </div>
+    <div class="col-md-3">
+        <h5>METROPOLITAN BALLET THEATRE</h5>
+    </div>
+    <div class="col-md-3">
+        <p>11460 Maxwell Road, Suite A<br>
+        Alpharetta, GA 30009 <br>
+        (678) 297-2800 <br>
+        mbt@metropolitanballet.org</p>
+    </div>
+</div>
+<!-- Footer -->
+
+
+  <!--<div class="directorjumbotron jumbotron-fluid">
+    <div class="thesponsorsContainer">
+      <h2 class="mt-5">OUR SPONSORS</h2>
+      <div class="card-deck">
+
+        <div class="theSponsorCard col-lg-3 col-md-3 col-sm-12 d-inline-block">
+          <img src="images/sponsor1.png" class="card-img" alt="...">
+        </div>
+
+        <div class="theSponsorCard col-lg-3 col-md-3 col-sm-12 d-inline-block">
+          <img src="images/sponsor2.png" class="card-img" alt="...">
+        </div>
+
+        <div class="theSponsorCard col-lg-3 col-md-3 col-sm-12 d-inline-block">
+          <img src="images/sponsor3.png" class="card-img" alt="...">
+        </div>
+
+        <div class="theSponsorCard col-lg-3 col-md-3 col-sm-12 d-inline-block">
+          <img src="images/sponsor4.png" class="card-img" alt="...">
+        </div>
+
+      </div>
+    </div>
+  </div>-->
+
+
+
+
+
+  <!-- THE SPONSORS END-->
+
+
+
+  <!-- Footer -->
+
+</body>
+<!-- <script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/bootstrap.js"></script> -->
+
+</html>

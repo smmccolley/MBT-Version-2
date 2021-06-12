@@ -1,0 +1,117 @@
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.container-fluid.d-flex.justify-content-end {
+  background-color: black;
+}
+
+.col {
+  column-gap: 10%;
+}
+
+.col-sm-12.col-md-6.col-lg-6 {
+  column-gap: 10%;
+}
+
+.navbar-toggler {
+  background-color: black;
+}
+.navbar-toggler-icon {
+  background-color: black;
+  border-color: black;
+}
+
+.whiteLogo {
+  background-color: black;
+  height: 50px;
+  margin-left: -750px;
+}
+
+.navPages {
+  text-decoration: none;
+  color: white;
+
+  font-size: 14pt;
+
+  padding: 10% 0% 10% 0%;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.navSubpages {
+  text-decoration: none;
+  color: white;
+  font-family: "Brandon-grotesque", sans-serif;
+  font-size: 11pt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-light {
+  background-color: black !important;
+}
+
+.menu {
+  color: white;
+  align-content: center;
+  margin-left: 35%;
+  font-family: "Brandon-grotesque", sans-serif;
+  padding-top: 0px;
+  font-size: 10pt;
+}
+
+.modal {
+  background-color: black;
+}
+
+.btn {
+  background-color: black;
+}
+.btn-secondary {
+  background-color: black;
+  border-color: #000000;
+  margin-left: 75%;
+  font-size: 10pt;
+}
+
+.modal-content {
+  background-color: black;
+}
+.modal-body {
+  background-color: black;
+}
+
+.modal-fullscreen {
+  background-color: black;
+}
+
+.modal-header {
+  background-color: black;
+  border-color: black;
+}
+
+.modal-dialog {
+  background-color: black;
+}
+
+.navbar.navbar-dark.bg-dark {
+  background-color: black;
+  color: black;
+  border: black;
+  box-shadow: black;
+}
+
+.bg-light {
+  background-color: black;
+}

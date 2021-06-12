@@ -1,0 +1,395 @@
+h1 {
+    font-family: 'Prata', 'serif';
+    font-size: 70;
+    letter-spacing: 4px;
+  }
+  h2 {
+    font-family: 'Prata', 'serif';
+    font-size: 36;
+  }
+  h3 {
+    font-family: 'Brandon-grotesque', 'sans-serif';
+    font-size: 38;
+    font-weight: 300;
+    font-style: normal;
+  }
+  h4 {
+    font-family: 'Brandon-grotesque', 'sans-serif';
+    font-size: 30;
+    font-weight: 100;
+    font-style: normal;
+  }
+  h5 {
+    font-family: 'Brandon-grotesque', 'sans-serif';
+    font-size: 16;
+    font-weight: 300;
+    font-style: normal;
+  }
+  h6 {
+    font-family: 'Brandon-grotesque', 'sans-serif';
+    font-size: 16;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  p{
+      font-family: 'Brandon-grotesque', 'sans-serif';
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+  }
+.width100_jr{
+    width:100%;
+    }
+
+.title_jr{
+text-align:center;
+margin-top:-5%;
+}
+
+.row_jr{
+    padding-top:10%;
+    padding-bottom: 10%;
+    justify-content: center; 
+}
+
+.row_jr h1{
+    text-align:center;
+    padding-bottom:1%;
+}
+
+.black_jr{
+    background-color: black;
+    color:white;
+}
+
+.black_jr h1{
+    color:#D7B061;
+}
+
+.faculty_jr{
+    text-align: center;
+}
+
+
+.faculty_jr h3 {
+    text-align: left;
+}
+
+.faculty_jr p {
+    text-align: left;
+    padding-bottom:5%;
+}
+
+
+
+.faculty_jr img{
+    padding-bottom:7.5%;
+    width:80%;
+}
+
+.btn-primary {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d7b061+1,756240+84 */
+    background: rgb(215,176,97); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(215,176,97,1) 1%, rgba(117,98,64,1) 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(215,176,97,1) 1%,rgba(117,98,64,1) 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(215,176,97,1) 1%,rgba(117,98,64,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D7B061', endColorstr='#756240',GradientType=0 ); /* IE6-9 */
+    border-radius: 0;
+    border: 0;
+}
+
+.one_padding_bottom{
+    padding-bottom:1%;
+}
+
+.one_padding_top{
+    padding-top:1%;
+}
+
+.h_one_large h1{
+    font-size: 150px;
+    font-family: hellenic-wide-jf, serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 50%;
+}
+
+.menu_bar{
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 3%;
+    background-color: white;
+}
+
+.menu{
+    text-align: center;
+
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Prata', 'serif';
+    font-size: 16pt;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.menu a:hover{
+    color:black;
+    border-bottom: 5px solid #D7B061;
+}
+
+menu a:active{
+    border-bottom: 5px solid #D7B061;
+}
+
+.footer_jr{
+    background: rgb(215,176,97); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(215,176,97,1) 1%, rgba(117,98,64,1) 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(215,176,97,1) 1%,rgba(117,98,64,1) 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(215,176,97,1) 1%,rgba(117,98,64,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D7B061', endColorstr='#756240',GradientType=0 ); /* IE6-9 */
+    border-radius: 0;
+    border: 0;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer_jr h2{
+    font-size: 16px
+}
+
+.footer_jr p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.social_media{
+    text-align: center;
+}
+
+.social_media img{
+    width: 14%;
+    padding-right: 1.75%;
+    padding-left: 1.75%;
+    margin-bottom: 0px;
+}
+
+.footer_jr h5{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.five_padding_bottom{
+    padding-bottom: 5%;
+}
+
+.five_padding_top{
+    padding-top: 5%;
+}
+
+.faculty_card{
+    padding-bottom: 10%;
+}
+
+.title_jr{
+    padding-bottom:5%;
+}
+
+.title_about{
+    padding-top: 3%;
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
+.container-fluid.d-flex.justify-content-end {
+  background-color: black;
+}
+
+.col {
+  column-gap: 10%;
+}
+
+.col-sm-12.col-md-6.col-lg-6 {
+  column-gap: 10%;
+}
+
+.navbar-toggler {
+  background-color: black;
+}
+.navbar-toggler-icon {
+  background-color: black;
+  border-color: black;
+}
+
+.whiteLogo {
+  background-color: black;
+  height: 50px;
+  margin-left: -750px;
+}
+
+.navPages {
+  text-decoration: none;
+  color: white;
+
+  font-size: 14pt;
+
+  padding: 10% 0% 10% 0%;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.navSubpages {
+  text-decoration: none;
+  color: white;
+  font-family: "Brandon-grotesque", sans-serif;
+  font-size: 11pt;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-light {
+  background-color: black !important;
+}
+
+.menu {
+  color: white;
+  align-content: center;
+  margin-left: 35%;
+  font-family: "Brandon-grotesque", sans-serif;
+  padding-top: 0px;
+  font-size: 10pt;
+}
+
+.modal {
+  background-color: black;
+}
+
+.btn {
+  background-color: black;
+}
+.btn-secondary {
+  background-color: black;
+  border-color: #000000;
+  margin-left: 75%;
+  font-size: 10pt;
+}
+
+.modal-content {
+  background-color: black;
+}
+.modal-body {
+  background-color: black;
+}
+
+.modal-fullscreen {
+  background-color: black;
+}
+
+.modal-header {
+  background-color: black;
+  border-color: black;
+}
+
+.modal-dialog {
+  background-color: black;
+}
+
+.navbar.navbar-dark.bg-dark {
+  background-color: black;
+  color: black;
+  border: black;
+  box-shadow: black;
+}
+
+.bg-light {
+  background-color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+
+.menu a{
+    font-size:15px;
+}
+
+.row_jr {
+    padding-right: 10%;
+    padding-left: 10% ;
+    margin-right: 0;
+    margin-left:0;
+}
+
+.footer_jr h2{
+    font-size: 24px;
+    padding-bottom:0px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.footer_jr p{
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-align:center;
+    padding-bottom:0px;
+    margin-bottom: 5%;
+}
+
+.social_media{
+    text-align: center;
+    padding-bottom:0px;
+    margin-bottom: 5%;
+}
+
+.social_media img{
+    width:10%;
+    padding-right: 1.75%;
+    padding-left: 1.75%;
+    padding-bottom:0px;
+    margin-bottom: 5%;
+    margin-top:3%
+}
+
+.footer_jr h5{
+    text-align: center;
+    padding-bottom:0px;
+    margin-bottom: 5%;
+}
+
+.five_padding_bottom{
+    padding-bottom: 10%;
+}
+
+.five_padding_top{
+    padding-top: 10%;
+}
+
+.testimonial_image img{
+    padding-bottom: 3% 
+}
+
+.faculty_jr img{
+    padding-bottom:7.5%;
+    width:65%;
+}
+
+
+}
