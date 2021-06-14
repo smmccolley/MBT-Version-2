@@ -138,6 +138,39 @@ p{
     font-family: 'brandon-grotesque', 'sans serif';
 }
 
+.one_padding_bottom{
+    padding-bottom:1%;
+}
+
+.title_about{
+    padding-top: 3%;
+}
+
+.menu_b{
+    text-align: center;
+    padding:0;
+    margin:0;
+
+}
+
+.menu_b a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Prata', 'serif';
+    font-size: 16pt;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.menu_b a:hover{
+    color:black;
+    border-bottom: 5px solid #D7B061;
+}
+
+.menu_b a:active{
+    border-bottom: 5px solid #D7B061;
+}
+
 /*CALENDAR*/
 
 #calendar-section {
@@ -428,9 +461,13 @@ p{
   }
   
   @media screen and (max-width: 768px) {
-  
-    .menu a{
-        font-size:15px;
+    
+    .menu_b{
+        flex-direction:column;    
+      }
+    
+    .menu_b a{
+        font-size:15pt;
     }
     
     .row_jr {
@@ -438,6 +475,10 @@ p{
         padding-left: 10% ;
         margin-right: 0;
         margin-left:0;
+    }
+
+    .space_bottom_75{
+        padding-bottom: .75%;
     }
     
     .footer_jr h2{
